@@ -35,6 +35,13 @@ main {
 }
 
 header {
+    background: linear-gradient(
+        90deg,
+        rgba(87, 207, 119, 1),
+        rgba(106, 204, 204, 1)
+      );
+    padding: 2.5rem;
+    border-radius: 30px;
     margin-bottom: 3%;
 }
 
@@ -75,6 +82,8 @@ form label, form legend {
     border: 1px solid #CED4DA;
     border-radius: 5px;
     box-sizing: border-box;
+    padding: 0.5rem;
+    font-size: large;
 }
 
 fieldset {

@@ -52,7 +52,7 @@ Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to l
         <main>
             <header>
                 <h1 id="title">Mais um Formulário de Internet</h1>
-                <p id="description">Obrigado, mas nem tanto, por perder seu tempo em mais um formulario de internet</p>
+                <p id="description">Obrigado por perder seu tempo em mais um formulario de internet</p>
             </header>
             <form id="survey-form">
                 <fieldset>
@@ -64,13 +64,15 @@ Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to l
                     <input class="forma-do-input" type="email" id="email" placeholder="Digite seu E-mail" required>
                     <label for="number" id="number-label">Idade</label>
                     <input class="forma-do-input" type="number" id="number" min="18" max="120" placeholder="18-120" required>
+                    <label for="number">Celular</label>
+                    <input class="forma-do-input" type="tel" minlength="11" maxlength="15" data-mask="(00) 0000-0000" data-mask-selectonfocus="true" placeholder="(xx) xxxxx-xxxx" required>
                 </fieldset>
 
                 <fieldset>
                     <label>O que você acha desse formulário?
                         <select name="que-acha" id="dropdown">
                             <option value="">(Escolha uma opção)</option>
-                            <option value="naosei" selected>Não sei</option>
+                            <option value="nao-sei" selected>Não sei</option>
                             <option value="bom">Bom</option>
                             <option value="psm">Podia ser melhor</option>
                         </select>
