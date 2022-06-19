@@ -35,7 +35,7 @@ main {
     }
 }
 
-header {
+.header {
     background: linear-gradient(
         90deg,
         rgba(87, 207, 119, 1),
