@@ -3,6 +3,8 @@ Projeto para por em prática conhecimentos adquiridos nos cursos da Alura/Compas
 
 Desafio da FreeCodeCamp do curso atualizado de Responsive Web Design.
 
+GitHub Pages: https://cruz-andre.github.io/Formulario/
+
 TODO além do desafio:
 1. Mascaras nos inputs (mask input);
 2. quem sabe um novo layout e design;
